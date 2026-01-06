@@ -4,6 +4,7 @@
 INSERT INTO CENTRE (id_centre, name_centre, city, address, phone) VALUES 
 (1, 'Centre Digital Casablanca', 'Casablanca', '123 Boulevard Mohammed V, Casablanca', '+212522345678');
 
+
 INSERT INTO CENTRE (id_centre, name_centre, city, address, phone) VALUES 
 (2, 'Campus Tech Rabat', 'Rabat', '45 Avenue Mohammed VI, Rabat', '+212537890123');
 
@@ -42,7 +43,7 @@ INSERT INTO FORMATION (id_formation, name_formation, start_date, end_date, id_do
 
 INSERT INTO FORMATION (id_formation, name_formation, start_date, end_date, id_domain, id_centre) VALUES 
 (2, 'Formation Data Analyst', DATE '2024-04-15', DATE '2024-07-15', 2, 2);
-
+SELECT * FROM FORMATION;
 INSERT INTO FORMATION (id_formation, name_formation, start_date, end_date, id_domain, id_centre) VALUES 
 (3, 'Certification Machine Learning', DATE '2024-05-10', DATE '2024-08-10', 3, 3);
 
