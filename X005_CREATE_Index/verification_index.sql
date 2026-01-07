@@ -1,4 +1,5 @@
 -- Verification des index créés
+ALTER SESSION SET CONTAINER = PDB_FORMATION;
 SELECT 
     table_name,
     index_name,

@@ -39,19 +39,19 @@ INSERT INTO DOMAIN_FORMATION (id_domain, name_domain, description) VALUES
 -- Insert data in FORMATION table
 -- ====================================
 INSERT INTO FORMATION (id_formation, name_formation, start_date, end_date, id_domain, id_centre) VALUES 
-(1, 'Bootcamp Développement FullStack', DATE '2024-03-01', DATE '2024-06-01', 1, 1);
+(1, ' Développement FullStack', DATE '2024-03-01', DATE '2024-06-01', 1, 1);
 
 INSERT INTO FORMATION (id_formation, name_formation, start_date, end_date, id_domain, id_centre) VALUES 
-(2, 'Formation Data Analyst', DATE '2024-04-15', DATE '2024-07-15', 2, 2);
+(2, ' Data Analyst', DATE '2024-04-15', DATE '2024-07-15', 2, 2);
 SELECT * FROM FORMATION;
 INSERT INTO FORMATION (id_formation, name_formation, start_date, end_date, id_domain, id_centre) VALUES 
-(3, 'Certification Machine Learning', DATE '2024-05-10', DATE '2024-08-10', 3, 3);
+(3, ' Machine Learning', DATE '2024-05-10', DATE '2024-08-10', 3, 3);
 
 INSERT INTO FORMATION (id_formation, name_formation, start_date, end_date, id_domain, id_centre) VALUES 
-(4, 'Expert en Cybersécurité', DATE '2024-06-01', DATE '2024-09-01', 4, 4);
+(4, ' Cybersécurité', DATE '2024-06-01', DATE '2024-09-01', 4, 4);
 
 INSERT INTO FORMATION (id_formation, name_formation, start_date, end_date, id_domain, id_centre) VALUES 
-(5, 'Design Thinking & UX', DATE '2024-07-01', DATE '2024-10-01', 5, 5);
+(5, 'Design UI/UX', DATE '2024-07-01', DATE '2024-10-01', 5, 5);
 
 -- ====================================
 -- Insert data in ETUDIANT table
@@ -111,3 +111,12 @@ INSERT INTO EVALUATION (id_evaluation, score, date_evaluation, id_etudiant, id_f
 -- Commit toutes les transactions
 -- ====================================
 COMMIT;
+
+SELECT * FROM CENTRE;
+SELECT * FROM DOMAIN_FORMATION;
+SELECT * FROM ETUDIANT;
+SELECT * FROM FORMATION;
+
+
+
+

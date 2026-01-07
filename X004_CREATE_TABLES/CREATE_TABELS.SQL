@@ -1,5 +1,6 @@
 -- Create Tables with Partitions
 -- ====================================
+ALTER SESSION SET CONTAINER = PDB_FORMATION;
 
 -- CENTRE Table (No Partition)
 CREATE TABLE CENTRE (
