@@ -1,0 +1,20 @@
+ALTER SESSION SET CONTAINER = PDB_FORMATION;
+-- ====================================
+
+
+CREATE PROFILE PROFILE_FORMATEUR LIMIT
+  FAILED_LOGIN_ATTEMPTS 5
+  PASSWORD_LIFE_TIME 60
+  PASSWORD_REUSE_TIME 180
+  PASSWORD_REUSE_MAX 5
+  PASSWORD_LOCK_TIME 1
+  PASSWORD_GRACE_TIME 5
+  SESSIONS_PER_USER 3
+  IDLE_TIME 60
+  CONNECT_TIME 600;
+
+
+  -- ====================================
+-- Fin du script de création du profil FORMATEUR
+-- ====================================
+COMMIT;
