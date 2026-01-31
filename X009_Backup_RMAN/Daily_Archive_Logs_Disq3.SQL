@@ -1,0 +1,5 @@
+-- connect target sys/admin@PDB_FORMATION
+
+RUN {
+  BACKUP ARCHIVELOG ALL FORMAT 'F:\DB_BACKUPS\ARCHIVELOGS\arch_%U.bkp';
+}

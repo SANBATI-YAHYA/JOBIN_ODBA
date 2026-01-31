@@ -1,0 +1,4 @@
+-- connect target sys/admin@PDB_FORMATION
+RUN {
+  BACKUP INCREMENTAL LEVEL 1 DATABASE FORMAT 'E:\DB_BACKUPS\INCR\incr_%U.bkp';
+}
